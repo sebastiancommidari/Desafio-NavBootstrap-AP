@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Desafio 3 - Menú de Bootstrap</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/LOGO-MESSI.png" alt="logo" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#messi">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#historia">Historia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#equipos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Equipos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#ñuls">Newell´s Old Boys</a></li>
+                  <li><a class="dropdown-item" href="#barsa">FC Barcelona</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#psg">PSG (Actual)</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Merch Oficial(Próximamente)</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      
+      <div id="messi" class="info">
+        <h1 class="tituloSeccion">Lionel Messi</h1> 
+        <p>(Lionel Andrés Messi; Rosario, Santa Fe, 1987) Futbolista argentino. Poseedor de una habilidad técnica excepcional, una endiablada velocidad y una inventiva inagotable, desde que llegó de la mano de sus padres al F.C. Barcelona, con 13 años de edad, realizó una carrera vertiginosa por las diferentes categorías hasta el primer equipo, en el que debutó con apenas 16 años en un partido amistoso ante el Oporto. En 2004, con 17 años, Leo Messi jugó su primer encuentro oficial de la Liga española. Con 18 años le llegó su consagración internacional: formó parte de la selección argentina, campeona en el Mundial Juvenil Sub-20 de Holanda, disputado en 2005.<br><br> 
+            Pero su verdadera eclosión se produjo con la llegada de Pep Guardiola al banquillo azulgrana: durante las cuatro temporadas en que el técnico dirigió el equipo (2008-2012), sus estadísticas goleadoras alcanzaron niveles estratosféricos, contribuyendo de forma decisiva a que el Barça viviese la mejor etapa de su historia al hacerse con 14 títulos de los 18 posibles. Considerado unánimemente el mejor futbolista del momento, su talento individual se ha visto reconocido en cinco ocasiones con el Balón de Oro (2009, 2010, 2011, 2012 y 2015).<br>
+        </p>
+    </div>
+    
+      <div id="historia" class="info">
+        <h2 class="tituloSeccion">Historia</h2> 
+        <p>Conocido como Leo o Pulga, su inmensa calidad ya apuntaba cuando tenía cinco años y jugaba en el club de barrio de su ciudad natal dirigido por su padre, un empleado de la industria metalúrgica, y se reafirmó cuando, a partir de sus siete años, comenzó a jugar en las divisiones inferiores del Newell's Old Boys de Rosario. <br><br> 
+            A los 10 años, a punto de dar el salto al club River Plate de Buenos Aires, se le detectó un retraso en el desarrollo óseo causado por un bajo nivel de hormonas del crecimiento; el tratamiento médico era muy costoso, los clubes no quisieron afrontarlo y su padre, que no disponía de los recursos económicos necesarios, decidió entonces emigrar a Barcelona con su familia, donde se le había presentado una posibilidad laboral. En septiembre de 2000, Leo Messi realizaba una prueba en el F.C. Barcelona; el técnico Carles Rexach quedó maravillado con su talento futbolístico y, firmando en efecto un contrato en una servilleta de papel, como cuenta la anécdota, lo incorporó al club, que se hizo cargo del tratamiento del chico. Messi tenía entonces trece años y medía 1,40.<br><br>
+            A partir de ese momento Messi se formaría en la Masia, centro de entrenamiento de la cantera azulgrana, donde pasó por las diferentes categorías (Infantil A, Cadete B, Cadete A, Juvenil A, Barça C y Barça B) antes de llegar al primer equipo, ya en la era del presidente Joan Laporta. Aunque participó en el amistoso que enfrentó al FC Barcelona con el FC Porto en el partido de inauguración del Estadio do Dragáo (16 de noviembre de 2003), su debut oficial en primera división con la camiseta azulgrana se produjo el 16 de octubre de 2004 en Montjuic, en el clásico derby con el Español de Barcelona.</p>
+    </div>
+
+    <div id="equipos" class="info">
+        <h2 class="tituloSeccion">Equipos</h2>
+        <section>
+        <h4 id="ñuls">Newell´s Old Boys(1994-1999)</h4>
+        <p>Messi jugó en las inferiores de Newell's entre 1994 y 1999. Jugaba en la categoría 1987, conocida como "La Máquina '87", dirigida por Ernesto Vecchio. Debutó ante Pablo VI el 9 de abril, en un encuentro que Newell's ganó 6-0, con cuatro tantos suyos. Con el club ganó, entre otros títulos, la Copa de la Amistad de Perú en 1997. En su período en Newell's, convirtió 234 goles, con un promedio de 1,32 goles por partido. En una entrevista realizada en 2014, Vecchio comentó: "Verlo jugar a Leo con tan corta edad realmente era impresionante. Uno no podía creer (…) ver un chico con esa virtud, esa calidad, y tan menudito, chiquitito, que haga tantas cosas con la pelota".</p>
+        </section>
+        <section>
+        <h4 id="barsa">FC Barcelona(2000-2021)</h4>
+        <article>
+        <p>
+            A sus 17 años la Pulga marcaba su primer gol como profesional en el Barça en un partido contra el Albacete, y se convertía en el jugador más joven del equipo azulgrana en lograr un tanto en la Liga española. Durante esa temporada 2004-2005, las lesiones que arrastraban algunas figuras del primer equipo y su brillante trayectoria en el filial hicieron que fuese un habitual en las convocatorias y que contribuyera a la consecución del título de Liga, el primero de su palmarés.<br><br>
+            Pero la progresión del ariete no había hecho más que empezar. La temporada 2005-2006, después de un gran debut en el trofeo Joan Gamper contra la Juventus de Turín, fue ya sin duda una buena campaña, aunque una lesión muscular lo apartó de los terrenos de juego en el tramo final de la competición. Se exhibió en el Santiago Bernabéu, en un memorable partido en el que los azulgranas vencieron al Real Madrid por 0-3, y en Stamford Bridge, en los octavos de final de la Liga de Campeones contra el Chelsea. El resultado de la temporada para el equipo de Frank Rijkaard no pudo ser mejor: ganó la Supercopa de España, la Liga y la Liga de Campeones, la segunda de su historia.<br>
+            En 2006-2007 las cosas no fueron tan bien para el Barça, que no ganó ningún título importante, pero Messi deleitó a los aficionados con jugadas espectaculares que ya lo postularon entre los mejores jugadores del mundo. Entre sus momentos de gloria se cuenta el haber logrado los tres goles del Barcelona que le valieron el empate frente al Real Madrid, en el partido disputado en el Camp Nou el 10 de marzo de 2007.<br><br>
+            Otro momento estelar en la biografía de Leo Messi fue su hazaña del 18 de abril de ese mismo año, en las semifinales de la Copa del Rey contra el Getafe, cuando eludió a cinco jugadores, portero incluido, e hizo el segundo gol de su equipo. Esta genialidad dio la vuelta al mundo y todos lo compararon con el Maradona que coronó el célebre "Gol del siglo" ante Inglaterra, en el Mundial de México de 1986. La progresión del jugador continuó en 2007-2008, una temporada difícil para el equipo, que vio cómo se agotaba el proyecto liderado por Ronaldinho y acababa la era de Frank Rijkaard en el banquillo.</p>
+        </article>
+        <article>
+            <h5>La Era Guardiola</h5>
+            <p>
+            El FC Barcelona inició la temporada 2008-2009 con un nuevo proyecto que generó un cierto escepticismo entre los culés. El presidente Laporta había confiado el banquillo a un hombre de la casa, Josep Guardiola, con buenos resultados en el filial pero sin experiencia en primera. Los más optimistas auguraban buenos resultados a largo plazo. Pero la historia fue otra. Los chicos de Guardiola, con Messi convertido en crack indiscutible, pergeñaron la campaña futbolística más apasionante en décadas. Con un fútbol de libro, alabado en Europa y en el mundo, encadenaron victorias y resultados que pulverizaron todos los récords y consiguieron lo que parecía imposible: ganar en una misma temporada la Copa del Rey, la Liga y la Liga de Campeones, un triplete histórico que nunca antes había logrado ningún equipo español.<br><br>
+            En esta campaña, Messi completó su primera temporada sin lesiones y superó su récord de partidos jugados (51) y goles (38). El argentino fue decisivo en las finales de Copa y Champions -marcó el segundo gol del Barça en cada una de ellas-, y, entre goles antológicos, fue el artífice de dos de los seis tantos que encajó el Real Madrid en el Santiago Bernabéu.<br><br>
+            Los tres títulos obtenidos en la temporada 2008-2009 daban acceso al club a disputar otros tantos torneos a principios de la siguiente, antes de terminar el año: la Supercopa de España, la Supercopa de Europa y el Mundial de Clubs. En todos ellos resultó vencedor el Barça, marcando un récord histórico: levantar en un solo año los seis trofeos de las seis competiciones en que participaba. No hay duda de que, junto al entrenador, la explosión de Leo Messi fue una de las claves de que la era Guardiola (2008-2012) haya pasado a la historia como la mejor del club. El equipo conquistó durante ese cuatrienio 14 títulos de 18 posibles: a los seis citados, hay que sumar otras dos Liga españolas (2009-2010 y 2010-2011), otra Liga de Campeones en 2010-2011 (la tercera de Messi y la cuarta de la historia del club), la Copa del Rey (2011-2012), la Supercopa de Europa (2011), dos Supercopas de España (2010 y 2011) y el Mundial de Clubs de 2011. <br><br>
+            De hasta qué punto el papel de Leo Messi en tales triunfos fue determinante pueden dar una idea las estadísticas. De los 16 goles marcados por Messi en la temporada 2007-2008, pasó a anotar 38, 47, 53 y 73 tantos en los cuatro años de la era Guardiola, cifras de por sí estratosféricas que pueden indicar además, en su progresión, que aún no ha tocado techo, como lo ilustran otros aspectos en que sus números mejoran cada año. Ya no sólo hay que valorar su virtuosismo en el regate (sus cambios de ritmo rompen a los rivales hasta el punto de que el técnico del Arsenal, Arsène Wenger, lo llamó "jugador de PlayStation") y su extraordinaria precisión en los disparos y remates, sino también una visión del juego que ha hecho de él un excelente pasador: de apenas tres o cuatro asistencias de gol en sus primeras temporadas, pasó a 29 en la temporada 2011-2012.<br><br>
+            A estas alturas ya eran muy pocos los expertos, entrenadores y colegas que no lo consideraban el mejor jugador del mundo. La prensa deportiva y las federaciones internacionales lo reconocían como tal, y además de los incontables títulos de su palmarés deportivo, el jugador acaparaba reconocimientos individuales. Ya en 2009 la revista France Football le concedió el Balón de Oro y la FIFA lo designó Mejor Jugador del Mundo. Ambos premios se unificaron un año después en el FIFA Balón de Oro, que recayó sobre el argentino en sus tres primeras ediciones (2010, 2011 y 2012) y de nuevo en 2015.
+            
+            </p>
+        </article>
+        <article>
+            <h5>La Era Luis Enrique</h5>
+            <p>
+                A estos relativos fracasos con la selección argentina debe contraponerse, después de dos temporadas difíciles, un nuevo resurgimiento del esplendor del Barça con el desembarco como técnico de Luis Enrique, antiguo jugador azulgrana que, tras su incorporación a principios de la temporada 2014-2015, justo a la finalización del Mundial, ha sabido dotar al equipo de nuevos registros más allá del fútbol «al primer toque» de Guardiola, reforzando su verticalidad (con precisos pases largos que sorprenden y superan las líneas rivales) y la potencia del contraataque.<br><br>
+                Sumando a ello la plena recuperación de Leo Messi y su perfecto entendimiento con las nuevas incorporaciones en la delantera (el extremo brasileño Neymar, joven promesa y probable sucesor de Messi, y el uruguayo Luis Suárez como killer o rematador), el Barcelona reeditó en la temporada 2014-2015 los éxitos de 2009 adjudicándose por segunda el vez el triplete (la Liga española, la Copa del Rey y la Liga de Campeones), y a punto estuvo de igualar los seis títulos en año natural al proclamarse campeón de la Supercopa de Europa y del Mundial de Clubes al inicio de la temporada 2015-2016. El comienzo de esta nueva etapa no augura sino nuevos y arrolladores triunfos a la maquinaria azulgrana y a su principal estrella, convertido ya a sus 28 años en «leyenda en activo» del deporte más popular del planeta.
+            </p>
+        </article>
+    </section>
+        <h4 id="psg">Paris Saint Germain(2021-Actualidad)</h4>
+        <p>
+            El 10 de agosto Paris Saint-Germain anunció la llegada de Messi a través de un video en sus redes sociales.273​ El jugador firmó un contrato por dos años con opción de extenderlo una temporada, con un salario de 36,5 millones de euros y usaría el dorsal 30, el mismo con el que debutó en el Barcelona</p><br>
+        </section>
+    </div>
+
+    <footer>
+        <ul class="sociales">
+          <li><a href="#"><img src="img/facebook.png"></a></li>
+          <li><a href="#"><img src="img/instagram.png"></a></li>
+          <li><a href="#"><img src="img/whatsapp.png"></a></li>
+          <li>copyright &copy;2022 - Lionel Messi</li>
+        </ul>
+      </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>

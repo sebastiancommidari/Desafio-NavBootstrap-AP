@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #CAE5FF!important;
+}
+
+.info {
+    width: 90%;
+    height: auto;
+    background: white;
+    margin: 5% auto;
+    padding: 10px;
+    padding-top: 1px;
+    border-radius: 3%;
+}
+
+p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+.info .tituloSeccion{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #AED1FE  dashed;
+    padding-bottom: 10px;
+}
+
+
+footer{
+    margin-top: 50px;
+    padding-top: 25px;
+    background-color: white;
+}
+
+.sociales{
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+}
+
+.sociales li{
+    display: inline-block;
+}
+
+.sociales img{
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+}
