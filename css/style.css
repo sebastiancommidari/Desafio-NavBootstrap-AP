@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: #CAE5FF!important;
+    background-color: #e3f2fd!important;
 }
 
 .info {
@@ -22,7 +22,7 @@ p {
     font-size: xx-large;
     text-align: center;
     font-weight: bolder;
-    border-bottom: 2px #AED1FE  dashed;
+    border-bottom: 2px #e3f2fd  dashed;
     padding-bottom: 10px;
 }
 
